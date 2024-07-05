@@ -399,12 +399,16 @@ local function get_groups()
     LspSignatureActiveParameter = { link = "Search" },
     gitcommitSelectedFile = { link = "GruvboxGreen" },
     gitcommitDiscardedFile = { link = "GruvboxRed" },
+
+    -- GitSigns
     GitSignsAdd = { link = "GruvboxGreen" },
     GitSignsChange = { link = "GruvboxAqua" },
     GitSignsDelete = { link = "GruvboxRed" },
+
+    -- NvimTree
     NvimTreeSymlink = { fg = colors.neutral_aqua },
     NvimTreeRootFolder = { fg = colors.neutral_purple, bold = true },
-    NvimTreeFolderIcon = { fg = colors.neutral_blue, bold = true },
+    --NvimTreeFolderIcon = { fg = colors.neutral_blue, bold = true },
     NvimTreeFileIcon = { fg = colors.light2 },
     NvimTreeExecFile = { fg = colors.neutral_green, bold = true },
     NvimTreeOpenedFile = { fg = colors.bright_red, bold = true },
@@ -418,8 +422,11 @@ local function get_groups()
     NvimTreeGitNew = { fg = colors.neutral_yellow },
     NvimTreeGitDeleted = { fg = colors.neutral_red },
     NvimTreeWindowPicker = { bg = colors.aqua },
+
     debugPC = { link = "DiffAdd" },
     debugBreakpoint = { link = "GruvboxRedSign" },
+
+    -- Startify
     StartifyBracket = { link = "GruvboxFg3" },
     StartifyFile = { link = "GruvboxFg1" },
     StartifyNumber = { link = "GruvboxBlue" },
@@ -431,6 +438,7 @@ local function get_groups()
     StartifyFooter = { link = "GruvboxBg2" },
     StartifyVar = { link = "StartifyPath" },
     StartifySelect = { link = "Title" },
+
     DirvishPathTail = { link = "GruvboxAqua" },
     DirvishArg = { link = "GruvboxYellow" },
     netrwDir = { link = "GruvboxAqua" },
@@ -443,6 +451,8 @@ local function get_groups()
     netrwHelpCmd = { link = "GruvboxAqua" },
     netrwCmdSep = { link = "GruvboxFg3" },
     netrwVersion = { link = "GruvboxGreen" },
+
+    -- NERDTree
     NERDTreeDir = { link = "GruvboxAqua" },
     NERDTreeDirSlash = { link = "GruvboxAqua" },
     NERDTreeOpenable = { link = "GruvboxOrange" },
@@ -476,17 +486,19 @@ local function get_groups()
     CocInfoHighlight = { link = "GruvboxYellowUnderline" },
     CocHintHighlight = { link = "GruvboxBlueUnderline" },
 
-    TelescopeNormal = { link = "GruvboxFg1" },
-    TelescopeSelection = { link = "GruvboxOrangeBold" },
-    TelescopeSelectionCaret = { link = "GruvboxRed" },
-    TelescopeMultiSelection = { link = "GruvboxGray" },
-    TelescopeBorder = { link = "TelescopeNormal" },
-    TelescopePromptBorder = { link = "TelescopeNormal" },
-    TelescopeResultsBorder = { link = "TelescopeNormal" },
-    TelescopePreviewBorder = { link = "TelescopeNormal" },
-    TelescopeMatching = { link = "GruvboxBlue" },
-    TelescopePromptPrefix = { link = "GruvboxRed" },
-    TelescopePrompt = { link = "TelescopeNormal" },
+    -- telescope.nvim
+    --TelescopeNormal = { link = "GruvboxFg1" },
+    --TelescopeSelection = { link = "GruvboxOrangeBold" },
+    --TelescopeSelectionCaret = { link = "GruvboxRed" },
+    --TelescopeMultiSelection = { link = "GruvboxGray" },
+    --TelescopeBorder = { link = "TelescopeNormal" },
+    --TelescopePromptBorder = { link = "TelescopeNormal" },
+    --TelescopeResultsBorder = { link = "TelescopeNormal" },
+    --TelescopePreviewBorder = { link = "TelescopeNormal" },
+    --TelescopeMatching = { link = "GruvboxBlue" },
+    --TelescopePromptPrefix = { link = "GruvboxRed" },
+    --TelescopePrompt = { link = "TelescopeNormal" },
+
     CmpItemAbbr = { link = "GruvboxFg0" },
     CmpItemAbbrDeprecated = { link = "GruvboxFg1" },
     CmpItemAbbrMatch = { link = "GruvboxBlueBold" },
