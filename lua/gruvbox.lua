@@ -402,7 +402,7 @@ local function get_groups()
 
     -- GitSigns
     GitSignsAdd = { link = "GruvboxGreen" },
-    GitSignsChange = { link = "GruvboxAqua" },
+    GitSignsChange = { link = "GruvboxOrange" },
     GitSignsDelete = { link = "GruvboxRed" },
 
     -- NvimTree
@@ -901,6 +901,11 @@ local function get_groups()
     CarbonDanger = { link = "GruvboxRed" },
     CarbonPending = { link = "GruvboxYellow" },
     NoiceCursor = { link = "TermCursor" },
+    NoiceCmdlinePopupBorder = { fg = colors.blue, bg = nil },
+    NoiceCmdlineIcon = { link = "NoiceCmdlinePopupBorder" },
+    NoiceConfirmBorder = { link = "NoiceCmdlinePopupBorder" },
+    NoiceCmdlinePopupBorderSearch = { fg = colors.yellow, bg = nil },
+    NoiceCmdlineIconSearch = { link = "NoiceCmdlinePopupBorderSearch" },
     NotifyDEBUGBorder = { link = "GruvboxBlue" },
     NotifyDEBUGIcon = { link = "GruvboxBlue" },
     NotifyDEBUGTitle = { link = "GruvboxBlue" },
@@ -1211,6 +1216,7 @@ local function get_groups()
     ["@lsp.type.interface"] = { link = "@constructor" },
     ["@lsp.type.macro"] = { link = "@macro" },
     ["@lsp.type.method"] = { link = "@method" },
+    ["@lsp.type.modifier.java"] = { link = "@keyword.type.java" },
     ["@lsp.type.namespace"] = { link = "@namespace" },
     ["@lsp.type.parameter"] = { link = "@parameter" },
     ["@lsp.type.property"] = { link = "@property" },
